@@ -5,7 +5,7 @@
             switch (dart) {
                 case 'поделиться пянями': 
                 var goodFood = prompt('Вкусны ли пяни (да/нет)').toLowerCase;
-                var kommunismFood = prompt('Есть желание накормить Вейдера пянями? (да/нет)').toLowerCase;;
+                var kommunismFood = prompt('Есть желание накормить Вейдера пянями? (да/нет)').toLowerCase();
                 if (goodFood == 'да' || kommunismFood == 'да') {
                     alert ('ДартВейдер фценил ваши пяни, но с темной силой надо что-то делать');
                 } else {
@@ -14,8 +14,8 @@
                 break;
                 
                 case 'познать темную силу':
-                var darkPower= prompt('Заебали люди? (да/нет)').toLowerCase;
-                var jediDeath= prompt('Есть желание покормить джедаев дифракцией?'(да/нет)).toLowerCase;;
+                var darkPower= prompt('Надоели люди? (да/нет)').toLowerCase;
+                var jediDeath= prompt('Есть желание покормить джедаев дифракцией?'(да/нет)).toLowerCase();
                 if (darkPower == 'да' && jediDeath == 'да') {
                     alert ('Добро пожаловать на борт');
                 } else {
@@ -24,7 +24,7 @@
                 break;
                 
                 case 'клей за триста':
-                var kleyPalka= prompt('Есть желание купить джедайский меч (да/нет)').toLowerCase;
+                var kleyPalka= prompt('Есть желание купить джедайский меч (да/нет)').toLowerCase();
                 var wannaLego = prompt('Хочется собрать Лего? (да/нет)').toLowerCase;;
                 if (wannaLego == 'да' && kleyPalka == 'да') {
                     alert ('Поздравляем вам в районе 30-ника');
